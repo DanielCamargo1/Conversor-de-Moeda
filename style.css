@@ -1,0 +1,30 @@
+* {
+  text-align:center;
+}
+body { 
+background:url("https://blog.idwall.co/wp-content/uploads/2020/12/pexels-pixabay-259132.jpg")
+}
+
+h1{
+  font-size: 50px;
+  font-family:monospace;
+}
+
+
+.container{
+  linear-gradient(
+      to bottom right,
+      rgba(255, 255, 255, 0.2)
+      rgba(255, 255, 255, 0.05)
+  );
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5), -1px -1px 2px #aaa, 1px 1px 2px #555;
+  backdrop-filter: blur(0.8rem);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  animation: 1s cubic-bezier(0.16, 1, 0.3, 1) cardEnter;
+  width:500px;
+  text-align:center;
+  margin-left:420px;
+  margin-top:150px;
+
+}
